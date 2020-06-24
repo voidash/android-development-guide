@@ -5,7 +5,15 @@ Notes , helpful documentation and blog links and possibly cheatsheets
 ## Right now on hyperskill learning path
 
 1. [Inner classes in java](https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html)
+Inner classes can be declared private,static , protected , public anything we wish.
+Why Inner classes or nested classes? Because : 
+* maintain readability
+* some functionality that is used only on one place.
+* shadowing and encapsulation
+
+
 2. [Packages in java](https://www.geeksforgeeks.org/packages-in-java/)
+
 3. [using packages in java -- oracle docs](https://docs.oracle.com/javase/tutorial/java/package/usepkgs.html)
 
 Apparent Hierarchies of Packages
@@ -37,7 +45,8 @@ When you upcast you are allowing superclass object instance to have subclass ins
 
 When you downcast you are allowing subclass to have superclass instance. The danger lies here because your superclass object may not be referencing same object type as your subclass. Say if your superclass is fruit and holding apple right now. You can safely downcast but when superclass is holding a banana then it will throw a  classCastException which is unchecked exepction. i.e compiler wont care about it. but during runtime it might get invoked.
 
-        
+10. [Byte streams in java](https://www.geeksforgeeks.org/serialization-in-java/)
+
         
 
 
